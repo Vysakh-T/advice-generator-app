@@ -12,26 +12,32 @@
     <title>Frontend Mentor | Advice generator app</title>
 </head>
 
-<body>
+<body onload="getNewAdvice()">
     <main>
         <div class="card">
+            <div class="lds-ellipsis hide">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <h6>
-                ADVICE #<span id="slip_id">117</span>
+                ADVICE #<span id="slip_id"></span>
             </h6>
-            <h1 id="slip_advice">
-                "It is easy to sit up and take notice, what's difficult is getting up and taking action"
+            <h1>
+                "<span id="slip_advice"></span>"
             </h1>
-            <img src="./images/pattern-divider-desktop.svg" alt="pattern-divider-desktop" srcset="">
-            <!-- <img src="./images/pattern-divider-mobile.svg" alt="pattern-divider-desktop" srcset=""> -->
-            <button class="dice" type="button" onclick=getNewAdvice()>
-                <img src="./images/icon-dice.svg" alt="dice-icon">
+            <img class="desktop-only" src="./images/pattern-divider-desktop.svg" alt="pattern-divider-desktop" srcset="">
+            <img class="mobile-only" src="./images/pattern-divider-mobile.svg" alt="pattern-divider-desktop" srcset="">
+            <button class="dice" type="button" onclick="getNewAdvice()">
+                <img src="./images/icon-dice.svg " alt="dice-icon ">
             </button>
         </div>
     </main>
     <footer>
-        Challenge by <a rel="noopener" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a rel="noopener" href="https://github.com/Vysakh-T" target="_blank">Vysakh T</a>.
+        Challenge by <a rel="noopener " href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a rel="noopener " href="https://github.com/Vysakh-T " target="_blank ">Vysakh T</a>.
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js "></script>
 </body>
 
 </html>
