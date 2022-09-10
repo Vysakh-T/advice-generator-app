@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Vysakh-T/advice-generator-app)
-- Live Site URL: [Add live site URL here](https://vysakh-t.github.io/advice-generator-app/)
+- Solution URL: [https://github.com/Vysakh-T/advice-generator-app](https://github.com/Vysakh-T/advice-generator-app)
+- Live Site URL: [https://vysakh-t.github.io/advice-generator-app/](https://vysakh-t.github.io/advice-generator-app/)
 
 ### Built with
 
